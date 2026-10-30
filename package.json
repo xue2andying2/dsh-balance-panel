@@ -1,0 +1,33 @@
+{
+  "name": "dsh-balance-panel",
+  "displayName": "更好的显示",
+  "version": "0.1.3",
+  "private": true,
+  "description": "更好的显示：DSH 侧边栏余额 / 花费面板。余额常显，点击看每个会话花了多少钱、多少 token、跑了多久，悬浮看哪些会话正在跑。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "balance",
+    "usage",
+    "tokens",
+    "sidebar",
+    "web"
+  ],
+  "license": "MIT"
+}

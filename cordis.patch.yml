@@ -1,0 +1,5 @@
+# dsh-balance-panel — 侧边栏余额 / 花费面板（本地插件，不在 npm 上）。
+# Host 半注册 GET /api/balance-panel（余额 + 各会话用量），包声明 dsh.client 提供浏览器侧卡片。
+- insert:
+    - id: balance-panel
+      name: 'dsh-balance-panel'
